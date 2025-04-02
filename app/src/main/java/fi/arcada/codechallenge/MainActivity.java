@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        myNumbers = new ArrayList<>(Arrays.asList(1.0, 2.0, 3.0, 4.0, 5.0));
+        myNumbers = new ArrayList<>(Arrays.asList(1.0, 2.0, 3.0, 9.0, 5.0));
 
         // deklarera TextView och initialisera med findViewById
         myView = findViewById(R.id.myView);
